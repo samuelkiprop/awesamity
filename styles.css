@@ -1,6 +1,7 @@
 body {
     font-family: 'Lato', sans-serif;
     margin: 0px;
+    background: radial-gradient(ellipse at center, #12e61c 0%, #0f4ed6 100%)
 }
 
 .container {
@@ -37,11 +38,11 @@ body {
 }
 
 .active-nav-link {
-    border-bottom: 1px solid black;
+    border-bottom: 5px solid aliceblue;
 }
 
 .active-nav-link a {
-    color: black !important;
+    color: aliceblue !important;
 }
 
 .nav-link-wrapper a {
@@ -184,7 +185,7 @@ body {
 }
 
 .profile-content-wrapper h1 {
-    color: lightseagreen;
+    color: #fff;
 }
 
 .portfolio-img-background {

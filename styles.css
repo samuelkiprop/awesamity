@@ -1,7 +1,7 @@
 body {
     font-family: 'Lato', sans-serif;
     margin: 0px;
-    background: radial-gradient(ellipse at center, #12e61c 0%, #0f4ed6 100%)
+    background: radial-gradient(ellipse at center, #12e61c 0%, #0f4ed6 100%);
 }
 
 .container {
@@ -107,17 +107,18 @@ body {
 }
 
 .nav-link-wrapper a {
-    color: #8a8a8a;
+    color: aliceblue;
     text-decoration: none;
     transition: color 0.5s;
 }
 
 .nav-link-wrapper:hover {
-    border-bottom: 1px solid black;
+    color: aliceblue;
+    border-bottom: 1px solid aliceblue;
 }
 
 .nav-link-wrapper a:hover {
-    color: black;
+    color: aliceblue;
 }
 
 .portfolio-items-wrapper {
@@ -161,7 +162,7 @@ body {
 }
 
 .img-text-wrapper:hover .subtitle {
-    color: lightseagreen;
+    color: lightseaglightseagreenreen;
     font-weight: 600;
 }
 
@@ -220,10 +221,9 @@ body {
 }
 
 .img-text-wrapper:hover .subtitle {
-    color: lightseagreen;
+    color: #0f4ed6;
     font-weight: 600;
 }
-
 
 .two-column-wrapper {
     display: grid;
@@ -237,8 +237,4 @@ body {
 
 .profile-content-wrapper {
     padding: 30px;
-}
-
-.profile-content-wrapper h1 {
-    color: lightseagreen;
 }
